@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import icon from "../images/icon-black.png";
 import "./navbar.css";
 class NavBar extends Component {
   render() {
@@ -8,7 +9,7 @@ class NavBar extends Component {
         <div className="container">
           <Link className="navbar-brand" href="#">
             <img
-              src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg"
+              src={icon}
               className="d-inline-block align-top"
               width="30"
               height="30"
