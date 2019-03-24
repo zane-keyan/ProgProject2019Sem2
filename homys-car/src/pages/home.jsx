@@ -15,7 +15,6 @@ class Home extends Component {
         />
         <div className="row">
           <div className="col-lg-9 nopadding my-col order-lg-2 mapContainer" />
-
           <div className="col-lg-3 order-lg-1 nopadding my-col">
             <ul class="list-group bg-dark">
               <li class="list-group-item bg-dark text-white">
