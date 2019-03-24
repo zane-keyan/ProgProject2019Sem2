@@ -10,8 +10,11 @@ class CarItem extends Component {
           ModelString Year MakeString BodyString
           <br />
           Rego: ABCD1234
-          <button type="button" className="btn btn-outline-light  float-right">
-            Rent
+          <button
+            type="button"
+            className="btn btn-outline-light shadow-lg float-right"
+          >
+            Detail
           </button>
           <br /> 1km $price
         </li>

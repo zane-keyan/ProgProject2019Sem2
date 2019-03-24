@@ -11,7 +11,7 @@ class Footer extends Component {
               {" "}
               Team 0
             </a>{" "}
-            &#169; {new Date().getFullYear()}
+            &#169; {new Date().getFullYear()} - RMIT Project 1 2019
           </span>
         </div>
       </footer>

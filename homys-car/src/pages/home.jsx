@@ -13,7 +13,7 @@ class Home extends Component {
         <NavBar />
         <Jumbotron
           title="Rent now"
-          subtitle="Simply selection the location you want to pick up and drop off our vehicles and see what is available for rent"
+          subtitle='Homy&apos;s car is one of the easiest and fastest car rental service in the world. Simply click on "Get my location"  and select a vehicle near by and start renting '
         />
         <div className="container-fluid bg-dark">
           <div className="row">

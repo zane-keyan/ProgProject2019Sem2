@@ -7,7 +7,7 @@ class NavBar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src={icon}
               className="d-inline-block align-top"
@@ -32,16 +32,26 @@ class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
               <Link className="nav-item nav-link active" to="/">
-                Home <span className="sr-only">(current)</span>
+                HOME <span className="sr-only">(current)</span>
               </Link>
+              <h2 className="d-none d-lg-block my-h2">
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+              </h2>
               <Link className="nav-item nav-link" to="/about">
-                About
+                ABOUT
               </Link>
+              <h2 className="d-none d-lg-block my-h2">
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+              </h2>
+
               <Link className="nav-item nav-link" to="/signin">
-                Sign in
+                SIGN IN
               </Link>
+              <h2 className="d-none d-lg-block my-h2">
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+              </h2>
               <Link className="nav-item nav-link" to="/signup">
-                Signup
+                SIGN UP
               </Link>
             </div>
           </div>

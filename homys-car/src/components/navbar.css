@@ -3,5 +3,14 @@
 }
 a {
   color: #aaa;
-  font-weight: 200;
+  font-weight: bolder;
+}
+.bg-light {
+  /* background-color: #ffffff !important; */
+}
+.my-h2 {
+  color: #aaa !important;
+}
+.navbar-toggler {
+  border: none;
 }
