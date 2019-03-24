@@ -19,7 +19,7 @@ class Home extends Component {
             <div className="col-lg-7 nopadding my-col order-lg-2 mapContainer" />
             <div className="col-lg-5 order-lg-1 nopadding my-col">
               <div className="container-fluid shadow-lg bg-dark ">
-                <ul class="list-group  my-list-group bg-dark list-group-flush">
+                <ul class="list-group  my-list-group bg-dark list-group-flush " >
                   <li class="list-group-item bg-dark text-white">
                     <img
                       src={caricon}
