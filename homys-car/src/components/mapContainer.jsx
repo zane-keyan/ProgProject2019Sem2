@@ -6,7 +6,7 @@ const mapStyles = {
 };
 class MapContainer extends Component {
   state = {
-    showingInfoWindow: false, //Hides or the shows the infoWindow
+    showingInfoWindow: true, //Hides or the shows the infoWindow
     activeMarker: {}, //Shows the active marker upon click
     selectedPlace: {} //Shows the infoWindow to the selected place upon a marker
   };
@@ -21,6 +21,16 @@ class MapContainer extends Component {
           lng: 144.96332
         }}
       >
+        <Marker
+          position={{ lat: -37.8, lng: 144.96332 }}
+          onClick={this.onMarkerClick}
+          name={"Example marker for car"}
+        />
+        <Marker
+          position={{ lat: -37.814, lng: 144.9 }}
+          onClick={this.onMarkerClick}
+          name={"Example marker for car"}
+        />
         <Marker onClick={this.onMarkerClick} name={"Sup"} />
         <InfoWindow
           marker={this.state.activeMarker}
