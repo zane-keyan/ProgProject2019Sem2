@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { CarSchema } from '../models/crmModel';
+import { CarSchema } from '../models/carModel';
 
 const Car = mongoose.model('Car', CarSchema);
 

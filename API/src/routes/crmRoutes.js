@@ -6,8 +6,10 @@ import {
   // deleteContact,
 } from "../controllers/crmController";
 
+import { addNewRental } from "../controllers/rentalController"
+
 const routes = (app) => {
-  app.route('/contact')
+  app.route('/car')
     // .get(( req , res, next ) => {
     //   //middleware
     //   console.log(`Request from ${req.originalUrl}`)
@@ -27,6 +29,8 @@ const routes = (app) => {
 
   // // delete request
   // .delete(deleteContact);
+  app.route('/rental')
+    .post(addNewRental)
 }
 
 export default routes;
