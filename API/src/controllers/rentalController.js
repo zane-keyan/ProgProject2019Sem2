@@ -13,3 +13,12 @@ export const addNewRental = (req, res) => {
     res.json(Rental);
   });
 };
+
+export const getRentals = (req, res) => {
+  Rental.find({}, (err, rental) => {
+    if (err) {
+      res.send(err);
+    }
+    res.json(rental);
+  });
+};
