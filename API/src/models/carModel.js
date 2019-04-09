@@ -47,11 +47,11 @@ export const CarSchema = new Schema({
     type: Number,
     required: true
   },
-  latitude: {
+  lat: {
     type: Number,
     required: true
   },
-  longitude: {
+  lng: {
     type: Number,
     required: true
   }
